@@ -23,7 +23,8 @@
 - [`voice.md`](.claude/skills/bocharot-beometz/voice.md) - הקול
 - [`structure.md`](.claude/skills/bocharot-beometz/structure.md) - 7 התכנים
 - [`profile.md`](.claude/skills/bocharot-beometz/profile.md) - פרטים קבועים
-- [`make/SETUP.md`](make/SETUP.md) - מדריך בניית התרחיש ב-Make
+- [`routine/weekly-task.md`](routine/weekly-task.md) - המשימה השבועית המתוזמנת (חמישי 10:00): טופס → Google Doc + טיוטת Gmail
+- [`make/SETUP.md`](make/SETUP.md) - חלופה: מדריך בניית התרחיש ב-Make
 - `weeks/` - ארכיון שבועי (מקומי בלבד, לא עולה לריפו בגלל סיפורים אישיים)
 
 </div>
