@@ -164,6 +164,7 @@ WhatsApp ו-Facebook. כל פעולה שם היא "כתיבה למערכת של 
 | **מחברת** (Notebook) | זהות | הקול, הטון, ביטויים אסורים, כללי אימוג'ים | [`voice.md`](.claude/skills/bocharot-beometz/voice.md) | Memory store `bocharot-voice` (קריאה בלבד, חוץ מ"למדנו בדרך") | קבוע |
 | | מבנה | 7 התכנים: מטרה, שלב בקשת, אורך | [`structure.md`](.claude/skills/bocharot-beometz/structure.md) | אותו store, קריאה בלבד | קבוע |
 | | עובדות | שם, משפט מיצוב, מה יש בקבוצה, קישור | [`profile.md`](.claude/skills/bocharot-beometz/profile.md) | אותו store, קריאה בלבד | קבוע |
+| | ידע על המוצרים | הקורס "מתחילות לזוז": 6 המפגשים, המסרים, הכלים, ופרטים פתוחים ([למלא]) | `course.md` (**מקומי בלבד**, תוכן הקורס הוא קניין רוחני) | אותו store, קריאה בלבד | קבוע |
 | | לקחים | "למדנו בדרך": הערות סגנון עם תאריך | סוף `voice.md` | אותו store, קריאה וכתיבה | מצטבר |
 | | אפיזודי | כל שבוע: נושא, רגע, מפה, 7 תכנים | `weeks/*.md` | Memory store `bocharot-weeks` | מצטבר |
 | **העולם** (System of record) | מה שקרה בפועל | מה פורסם, תוצאות סקרים, הצטרפויות | הקבוצה עצמה + המעקב שלי | Google Sheets (דרך connector) | קבוע, משותף |
@@ -445,6 +446,7 @@ WATCH        Session viewer בשבועיים הראשונים, ואחר כך web
     ├── voice.md                     ← זיכרון: הקול + "למדנו בדרך"
     ├── structure.md                 ← זיכרון: 7 התכנים
     ├── profile.md                   ← זיכרון: עובדות
+    ├── course.md                    ← זיכרון: הקורס "מתחילות לזוז" (מקומי בלבד)
     └── weeks/                       ← זיכרון אפיזודי (מקומי בלבד)
 routine/
 └── weekly-task.md                   ← המשימה השבועית המתוזמנת (גרסה 2)
@@ -452,7 +454,7 @@ make/                                ← חלופה
 ├── SETUP.md                         ← מדריך בנייה ב-Make
 ├── make-mode.md                     ← הוראות מיוחדות למצב אוטומציה
 ├── build-prompt.sh                  ← בונה את ה-System prompt מקבצי הסוכנת
-└── system-prompt.md                 ← התוצאה, להדבקה ב-Make
+└── system-prompt.md                 ← התוצאה, להדבקה ב-Make (נבנה מקומית, לא בריפו)
 ```
 
 </div>

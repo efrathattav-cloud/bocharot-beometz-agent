@@ -2,3 +2,8 @@
 .claude/skills/bocharot-beometz/weeks/*
 !.claude/skills/bocharot-beometz/weeks/.gitkeep
 .claude/settings.local.json
+
+# תוכן הקורס "מתחילות לזוז" - קניין רוחני, נשאר מקומי
+.claude/skills/bocharot-beometz/course.md
+# נבנה מקבצי הסוכנת (כולל course.md) - מקומי בלבד
+make/system-prompt.md
