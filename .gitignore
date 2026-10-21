@@ -1,0 +1,4 @@
+# ארכיון שבועי - מכיל סיפורים אישיים, נשאר מקומי
+.claude/skills/bocharot-beometz/weeks/*
+!.claude/skills/bocharot-beometz/weeks/.gitkeep
+.claude/settings.local.json
