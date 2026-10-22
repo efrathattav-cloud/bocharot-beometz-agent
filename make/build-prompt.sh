@@ -14,6 +14,6 @@ SKILL=../.claude/skills/bocharot-beometz
   cat "$SKILL/structure.md"
   echo; echo "---"; echo
   cat "$SKILL/profile.md"
-  if [ -f "$SKILL/course.md" ]; then echo; echo "---"; echo; cat "$SKILL/course.md"; fi
+  for f in course.md challenge.md; do [ -f "$SKILL/$f" ] && { echo; echo "---"; echo; cat "$SKILL/$f"; }; done
 } > system-prompt.md
 echo "system-prompt.md: $(wc -w < system-prompt.md) words"
