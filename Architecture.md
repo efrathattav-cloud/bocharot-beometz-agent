@@ -13,7 +13,7 @@ Make ו-Managed Agents מתוכננים כחלופות. ראו פרק 8.
 ## 1. התמונה המלאה
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph IN["מקורות מידע"]
         F["Google Form<br/>נושא + רגע אמיתי + אירוע<br/>(מהטלפון)"]
         R["Gmail<br/>תשובה שלי למייל השאלות"]
